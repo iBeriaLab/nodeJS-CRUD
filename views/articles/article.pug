@@ -1,0 +1,16 @@
+extends ../layout/layout
+
+block content
+    .panel.panel-default
+        .panel-heading
+            h4= article.title
+        .panel-body
+            p= article.body
+        .panel-footer
+            strong Author: 
+                small= author
+            if user
+                if user.id ==article.author
+                    .btn-group.pull-right(role='group')
+                        a.btn.btn-default.btn-xs(href='/articles/edit/'+article._id) Edit
+                        a.btn.btn-danger.btn-xs.delete-article(href='#', data-id=article._id) Delete

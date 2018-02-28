@@ -1,0 +1,26 @@
+{
+  "name": "nodejsCRUD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Giorgi Magradze",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.2",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.0.2",
+    "mongoose": "^5.0.7",
+    "multer": "^1.3.0",
+    "nodemon": "^1.15.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}
